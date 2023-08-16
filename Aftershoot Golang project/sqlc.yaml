@@ -1,0 +1,6 @@
+version: "1"
+packages:
+  - name: "database"
+    path: "./internal/database"
+    queries: "./internal/database/sqlc/queries.sql"
+    schema: "./internal/database/sqlc/schema.sql"
